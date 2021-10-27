@@ -13,6 +13,13 @@
   padding: 0px;
 }
 
+.infoCardContainer--info-card-home1 {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #eee6f1;
+  padding: 0px;
+}
+
 .newsletter {
   background-color: #03054e;
   max-width: 1528px;
@@ -79,6 +86,14 @@
   }
 
   .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .infoCardContainer--info-card-home1 .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home1 .infoCardImageContainer {
     width: 70%;
   }
 

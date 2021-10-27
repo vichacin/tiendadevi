@@ -25,3 +25,14 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.slideChildrenContainer--images {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

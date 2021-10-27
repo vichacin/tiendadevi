@@ -1,0 +1,22 @@
+{
+  "store.custom#test": {
+    "blocks": [
+      "flex-layout.row"
+    ]
+  },
+
+  "flex-layout.row": {
+    "children": [
+      "rich-text#test1"
+    ]
+  },
+
+  "rich-text#test1": {
+    "props": {
+      "text":
+      "# Create meaningful and relevant experiences.",
+      "blockClass": "title"
+    }
+  }
+
+}

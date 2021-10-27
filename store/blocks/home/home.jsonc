@@ -9,8 +9,12 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
+      "info-card#home1",
+      "info-card#button-left",
       "rich-text#question",
       "rich-text#link",
+      "rich-text#test",
+      "slider-layout#home",
       "newsletter"
     ]
   },
@@ -87,6 +91,38 @@
     }
   },
 
+  "info-card#home1": {
+    "props": {
+      "id": "info-card-home1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home1",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#button-left": {
+    "props": {
+      "id": "info-card-home1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home1",
+      "textAlignment": "center"
+    }
+  },
+
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
@@ -99,5 +135,15 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+
+  "rich-text#test": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Exclusive brands that trust us**\n*Internationally*",
+      "font": "t-heading-5"
+    }
   }
+
 }

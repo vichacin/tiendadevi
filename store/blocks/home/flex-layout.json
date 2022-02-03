@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#home-description":{
+    "children": [
+      "info-card#rethink",
+      "flex-layout.col"
+    ]
+  },
+
+ "info-card#rethink": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  },
+
+  "flex-layout.col": {
+    "children": [
+      "image#electronics",
+      "image#major-appliance"
+    ]
+  },
+
+  "image#electronics": {
+    "props": {
+      "src": "https://images.unsplash.com/photo-1575000977355-8b2a719926c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "maxWidth": "100%"
+    }
+  },
+
+  "image#major-appliance": {
+    "props": {
+      "src": "https://tiendadevi.vteximg.com.br/arquivos/kitchen2.jpg",
+      "maxWidth": "100%"
+    }
+  }
+}

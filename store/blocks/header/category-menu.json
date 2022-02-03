@@ -4,89 +4,121 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-moda",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-moda": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-moda",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/exm-moda-victoria-chacin",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Moda",
+        "text": "Moda"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-moda"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-moda": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-moda"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-moda": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-moda-jeans",
+      "menu-item#category-moda-kits",
+      "menu-item#category-moda-perfumes",
+      "menu-item#category-moda-tops",
+      "menu-item#category-moda-vestidos"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-moda-jeans": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-moda-jeans",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/exm-moda-victoria-chacin/exm-jeans-victoria-chacin/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Jeans",
+        "text": "Jeans"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-moda-kits": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-moda-kits",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/exm-moda-victoria-chacin/exm-kits-victoria-chacin/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Kits",
+        "text": "Kits"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-moda-perfumes": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-moda-perfumes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/exm-moda-victoria-chacin/exm-perfumes-victoria-chacin/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Perfumes",
+        "text": "Perfumes"
+      }
+    }
+  },
+  "menu-item#category-moda-tops": {
+    "props": {
+      "id": "menu-item-category-moda-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-moda-victoria-chacin/exm-tops-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Tops",
+        "text": "Tops"
+      }
+    }
+  },
+  "menu-item#category-moda-vestidos": {
+    "props": {
+      "id": "menu-item-category-moda-vestidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-moda-victoria-chacin/exm-vestidos-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
       }
     }
   },
@@ -98,13 +130,99 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/exm-api-home---deco-victoria-chacin/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Home & Deco",
+        "text": "Home & Deco"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-home"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-home": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-home"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-home": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-home-cocinas",
+      "menu-item#category-home-iluminacion",
+      "menu-item#category-home-baths",
+      "menu-item#category-home-oficina"
+    ]
+  },
+
+  "menu-item#category-home-cocinas": {
+    "props": {
+      "id": "menu-item-category-home-cocinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-api-home---deco-victoria-chacin/exm-api-cocinas-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Cocinas",
+        "text": "Cocinas"
       }
     }
   },
+  "menu-item#category-home-iluminacion": {
+    "props": {
+      "id": "menu-item-category-home-iluminacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-api-home---deco-victoria-chacin/exm-api-iluminacion-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Iluminacion",
+        "text": "Iluminacion"
+      }
+    }
+  },
+  "menu-item#category-home-baths": {
+    "props": {
+      "id": "menu-item-category-home-baths",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-api-home---deco-victoria-chacin/exm-banos-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Baños",
+        "text": "Baños"
+      }
+    }
+  },
+
+  "menu-item#category-home-oficina": {
+    "props": {
+      "id": "menu-item-category-home-oficina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/exm-api-home---deco-victoria-chacin/exm-oficina-victoria-chacin/",
+        "noFollow": false,
+        "tagTitle": "Oficina",
+        "text": "Oficina"
+      }
+    }
+  },
+
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",

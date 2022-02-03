@@ -27,14 +27,14 @@
   "rich-text#title-about-us": {
     "props": {
       "text":
-      "# Create meaningful and relevant experiences.",
+      "## About Minimum Theme",
       "blockClass": "title"
     }
   },
 
   "image#mobile-phone": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "https://images.unsplash.com/photo-1607809714110-e34f71c7b2ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
@@ -49,8 +49,10 @@
   },
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
-      "blockClass": "about"
+      "text": "## Our history \n Insert a paragraph here \n ### This is the <em>VTEX  Minimum Theme</em> \n Stay updated with the latest news from VTEX IO! [Click here](https://developers.vtex.com/vtex-developer-docs/docs/welcome). \n Include a list here \n - Item 1 \n - Item 2 \n - Item3",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "pink-text"
     }
   }
 }

@@ -5,12 +5,31 @@
       "product-summary-name",
       "flex-layout.col#productRating",
       "product-summary-space",
+      "product-summary-sku-selector",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
+      "product-quantity",
       "product-installments#summary",
       "add-to-cart-button"
     ]
   },
+
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
+  },
+
+  "product-summary-sku-selector": {
+    "props": {
+      "visibleVariations": [
+        "color"
+      ],
+      "showVariationsLabels": ["none"],
+      "showValueForVariation": "all"
+    }
+  },
+
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"

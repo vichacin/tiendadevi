@@ -92,7 +92,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://tiendadevi.vteximg.com.br/arquivos/logo.png",
       "width": "180"
     }
   },
@@ -123,7 +123,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-moda",
       "menu-item#category-home",
       "menu-item#more"
     ],
@@ -136,7 +136,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://tiendadevi.vteximg.com.br/arquivos/logo-mobile.png",
       "width": "70"
     }
   }

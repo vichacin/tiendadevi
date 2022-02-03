@@ -2,6 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#perfume",
       "condition-layout.product#availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
@@ -31,6 +32,21 @@
     },
     "children": ["product-description"]
   },
+  "condition-layout.product#perfume": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "10"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#perfume",
+      "Else": "flex-layout.row#product-main"
+    }
+  },
+  
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -42,6 +58,31 @@
       "Else": "flex-layout.row#product-availability"
     }
   },
+
+  "flex-layout.row#perfume": {
+    "props": {
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [
+      "flex-layout.row#perfume-banner"
+    ]
+  },
+
+  "flex-layout.row#perfume-banner": {
+    "children": ["image#perfume-banner"]
+  },
+
+  "image#perfume-banner": {
+    "props": {
+      "src": "https://images.unsplash.com/photo-1595456578656-5b0378a9a954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "width": "100%",
+      "height": "200px",
+      "blockClass": "cover"
+    }
+  },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,

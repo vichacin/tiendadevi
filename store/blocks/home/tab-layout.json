@@ -1,0 +1,74 @@
+{
+  "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ]
+  },
+
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2"
+      ]
+  },
+
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2"
+      ]
+  },
+
+
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "majorAppliances",
+      "label": "Major Appliances",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "electronics",
+      "label": "Electronics"
+    }
+  },
+
+  "tab-content.item#home1": {
+    "children": [
+      "rich-text#1"
+    ],
+    "props": {
+      "tabId": "majorAppliances"
+    }
+  },
+
+  "tab-content.item#home2": {
+    "children": [
+      "rich-text#2",
+      "modal-trigger#first"
+    ],
+    "props": {
+      "tabId": "electronics"
+    }
+  },
+
+  "rich-text#1": {
+    "props": {
+      "text": "Soy una tab!",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#2": {
+    "props": {
+      "text": "Soy la otra tab :)",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+
+}

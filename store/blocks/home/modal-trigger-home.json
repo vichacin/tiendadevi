@@ -1,0 +1,31 @@
+{
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ]
+  },
+
+  "rich-text#trigger": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Psss, ¡Haz clic acá!",
+      "font": "t-heading-5"
+    }
+  },
+
+  "modal-layout#first": {
+    "children": [
+      "rich-text#hello"
+    ]
+  },
+
+  "rich-text#hello": {
+    "props": {
+      "text": "Soy un modal :)",
+      "font": "t-heading-5"
+    }
+  }
+
+}

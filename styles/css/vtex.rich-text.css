@@ -62,13 +62,9 @@
 }
 
 .container--title {
-  color: #c04a74;
+  color: #03034E;
   font-size: 28px;
   font-weight: 700;
-}
-
-.container--pink-text {
-  color: #c04a74;
 }
 
 @media only screen and (min-width: 640px) {
@@ -82,7 +78,9 @@
   }
 
   .container--title {
+    color: #03034E;
     font-size: 40px;
+    font-weight: 700;
     max-width: 60%;
   }
 

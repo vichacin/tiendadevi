@@ -62,7 +62,7 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
+      // "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -111,7 +111,10 @@
     "children": ["flex-layout.col#productCount", "flex-layout.row#orderByAndSwitcher"]
   },
   "flex-layout.row#orderByAndSwitcher": {
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "children": [
+      "order-by.v2", 
+      "gallery-layout-switcher"
+    ],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,

@@ -65,7 +65,7 @@
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
-    "vtexarg.fixed-prices-app": "1.x"
+    "vtexarg.fixed-app": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

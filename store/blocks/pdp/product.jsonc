@@ -49,7 +49,7 @@
       "Else": "flex-layout.row#product-main"
     }
   },
-  
+
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -144,7 +144,8 @@
     },
     "children": [
       "flex-layout.row#product-name",
-      "product-rating-summary",
+      // "product-rating-summary",
+      "fixed-price",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",

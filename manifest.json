@@ -1,7 +1,7 @@
 {
   "vendor": "tiendadevi",
-  "name": "store-theme",
-  "version": "6.0.0",
+  "name": "store-theme-fixed",
+  "version": "7.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -64,7 +64,8 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
-    "vtex.iframe": "0.x"
+    "vtex.iframe": "0.x",
+    "vtexarg.fixed-app": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

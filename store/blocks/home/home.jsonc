@@ -84,7 +84,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Destacados",
+      "text": "## Pricing",
       "blockClass": "shelfTitle"
     }
   },

@@ -65,7 +65,7 @@
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
-    "vtexarg.contextoproducto": "0.x"
+    "vtexarg.contextoproducto": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

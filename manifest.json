@@ -1,12 +1,7 @@
 {
   "vendor": "tiendadevi",
-<<<<<<< HEAD
   "name": "context-theme",
   "version": "0.0.1",
-=======
-  "name": "store-theme-fixed",
-  "version": "13.0.0",
->>>>>>> 19f5b51481ad61e5008e44a88bc9f0c04ee3b739
   "builders": {
     "styles": "2.x",
     "store": "0.x",

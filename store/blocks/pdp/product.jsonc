@@ -145,7 +145,7 @@
     "children": [
       "flex-layout.row#product-name",
       // "product-rating-summary",
-      "fixed-price",
+      // "fixed-price",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",

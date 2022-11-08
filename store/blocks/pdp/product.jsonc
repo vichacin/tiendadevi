@@ -2,14 +2,17 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#perfume",
+      "productcontext",
+      // "condition-layout.product#perfume",
       "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      // "flex-layout.row#description",
+      // "flex-layout.row#specifications-title",
+      // "product-specification-group#table",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+      // "shelf.relatedProducts"
+      // "product-reviews",
+      // "product-questions-and-answers"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -46,7 +49,7 @@
       "Else": "flex-layout.row#product-main"
     }
   },
-  
+
   "condition-layout.product#availability": {
     "props": {
       "conditions": [

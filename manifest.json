@@ -1,7 +1,7 @@
 {
   "vendor": "tiendadevi",
-  "name": "store-theme",
-  "version": "5.1.3",
+  "name": "context-theme",
+  "version": "0.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -63,10 +63,8 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "vtex.search": "2.x"
-  },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.search": "2.x",
+    "vtex.iframe": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

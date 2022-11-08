@@ -4,16 +4,16 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "stack-layout#cta",
+      // "__fold__.experimentalLazyAssets",
+      // "flex-layout.row#deals",
+      // "stack-layout#cta",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "info-card#link",
-      "flex-layout.row#home-description",
-      "responsive-layout.desktop#desktop", 
-      "responsive-layout.mobile#mobile",
+      // "info-card#link",
+      // "flex-layout.row#home-description",
+      // "responsive-layout.desktop#desktop",
+      // "responsive-layout.mobile#mobile",
       "rich-text#question",
       "rich-text#link",
       "rich-text#test",
@@ -47,7 +47,7 @@
         "size": "large"
       },
       "href": "/exm-api-home---deco-victoria-chacin",
-      "label": "Explore"
+      "label": "test"
     }
   },
 
@@ -68,7 +68,7 @@
     }
   },
 
-  
+
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -148,7 +148,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**This is an example**",
       "blockClass": "question"
     }
   },

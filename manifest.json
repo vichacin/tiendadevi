@@ -65,12 +65,6 @@
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x"
-<<<<<<< HEAD
-=======
-  },
-  "peerDependencies": {
-    "vtexarg.fixed-app": "2.x"
->>>>>>> 19f5b51481ad61e5008e44a88bc9f0c04ee3b739
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

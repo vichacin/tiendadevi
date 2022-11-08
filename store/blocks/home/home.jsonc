@@ -8,6 +8,7 @@
       // "flex-layout.row#deals",
       // "stack-layout#cta",
       "rich-text#shelf-title",
+<<<<<<< HEAD
       "flex-layout.row#shelf",
       "info-card#home",
       // "info-card#link",
@@ -20,6 +21,20 @@
       "slider-layout#home",
       "tab-layout#home",
       "newsletter"
+=======
+      "flex-layout.row#shelf"
+      // "info-card#home",
+      // "info-card#link",
+      // "flex-layout.row#home-description",
+      // "responsive-layout.desktop#desktop", 
+      // "responsive-layout.mobile#mobile",
+      // "rich-text#question",
+      // "rich-text#link",
+      // "rich-text#test",
+      // "slider-layout#home",
+      // "tab-layout#home",
+      // "newsletter"
+>>>>>>> 19f5b51481ad61e5008e44a88bc9f0c04ee3b739
     ]
   },
 
@@ -84,7 +99,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Destacados",
+      "text": "## Pricing",
       "blockClass": "shelfTitle"
     }
   },
